@@ -49,6 +49,11 @@ body {
 ul {
     list-style-type: none;
     padding: 0;
+    margin-left: 20px;
+}
+
+ul li {
+    margin: 10px 0;
 }
 
 .btn {
@@ -59,7 +64,15 @@ button {
     border: none;
     background-color: antiquewhite;
     width: 100%;
-    padding: 5px 8px;
+    padding: 10px 10px;
     display: block;
     cursor: pointer;
+    border-radius: 0.3vw;
+    text-transform: uppercase;
+    font: bold;
+}
+
+button:hover {
+    background-color: var(--primary-color);
+    color: antiquewhite;
 }
