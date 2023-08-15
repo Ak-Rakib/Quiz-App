@@ -46,6 +46,11 @@ body {
     color: antiquewhite;
 }
 
+#quiz {
+    text-align: center;
+    padding: 4px 8px;
+}
+
 ul {
     list-style-type: none;
     padding: 0;

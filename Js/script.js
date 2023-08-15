@@ -164,7 +164,12 @@ quizSubmit.addEventListener("click", () => {
         }
         else {
             // TO:DO -> SHOWING RESULT
-            resultText.innerHTML = `<h2>Your Score is ${score}/${quizData.length}</h2>`
+            resultText.innerHTML = `
+            <h2>Your Score is ${score}/${quizData.length}</h2>
+
+            <button onclick="location.reload();
+            ">Reload</button>
+            `
         }
     }
 });
